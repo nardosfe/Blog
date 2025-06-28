@@ -1,0 +1,80 @@
+<DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Blog Article</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .blog-container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+    .title {
+      text-align: center;
+    }
+    .blog-image {
+      width: 100%;
+      height: 200;
+      margin: 20px 0;
+    }
+    .author-info {
+      margin: 20px 0;
+      font-style: italic;
+      color: #555;
+    }
+    .comment-section {
+      margin-top: 40px;
+    }
+    .comment-section form {
+      display: flex;
+      flex-direction: column;
+    }
+    .comment-section input, .comment-section textarea {
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 1em;
+    }
+    .comment-section button {
+      width: 120px;
+      padding: 10px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .comment-section button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="blog-container">
+    <h1 class="title">The Beauty of Nature</h1>
+    <img src="https://images.stockcake.com/public/0/f/6/0f6100f6-7324-4747-9c5f-4c71df1f7be1_large/sunset-over-lake-stockcake.jpg" alt="image" class="blog-image">
+
+    <div class="author-info">
+      Written by <strong>Nardos Fekede</strong> on June 27, 2025
+    </div>
+
+    <p>Nature's beauty is a breathtaking tapestry of vibrant colors, from the golden hues of sunrise to the lush greens of thriving forests. The soothing sounds of rustling leaves and flowing rivers create a symphony that calms the soul. Each intricate detail, from delicate flowers to majestic mountains, reminds us of the wonder and harmony that exists in the natural world</p>
+
+    <div class="comment-section">
+      <h2>Leave a Comment</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Comment" required></textarea>
+        <button type="submit">Post Comment</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
